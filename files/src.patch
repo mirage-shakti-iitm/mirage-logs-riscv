@@ -1,6 +1,8 @@
---- ../src/mirage_logs.ml	2019-07-12 18:55:31.244619909 +0530
-+++ ../src/mirage_logs_new.ml	2019-07-12 18:59:33.638897391 +0530
-@@ -97,7 +97,7 @@
+diff --git a/src/mirage_logs.ml b/src/mirage_logs.ml
+index eaec5e3..1466d72 100644
+--- a/src/mirage_logs.ml
++++ b/src/mirage_logs.ml
+@@ -97,7 +97,7 @@ module Make (C : Mirage_clock.PCLOCK) = struct
          Buffer.clear buf;
          if level <= console_threshold src then
            Printf.fprintf ch "%s: %s\n%!" (fmt_timestamp (posix_time, tz)) msg;
