@@ -1,0 +1,11 @@
+--- ../_tags	2019-07-12 19:00:53.564586105 +0530
++++ ../_tags_new	2019-07-12 19:01:19.091921846 +0530
+@@ -1,6 +1,6 @@
+ true: warn(A), strict_sequence
+ true : bin_annot, safe_string, package(bytes)
+-true : package(logs mirage-clock lwt mirage-profile ptime)
++true : package(logs mirage-clock lwt ptime)
+ <test/*> : package(alcotest), package(lwt.unix)
+ <src> : include
+ <test> : include
+\ No newline at end of file
