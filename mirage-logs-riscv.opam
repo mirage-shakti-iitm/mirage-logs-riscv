@@ -20,6 +20,7 @@ depends: [
   "alcotest" {with-test}
 ]
 build: [ 
+  [make "add-cap-files"]
   ["dune" "subst"] {pinned}
   ["dune" "build" "-x" "riscv" "-p" "mirage-logs" "-j" jobs]
   ["dune" "runtest" "-p" name] {with-test}
