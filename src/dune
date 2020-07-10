@@ -1,5 +1,5 @@
 (library
   (name mirage_logs)
   (public_name mirage-logs)
-  (libraries logs mirage-clock lwt mirage-profile ptime)
-  	(ocamlopt_flags (-S)))
+  (libraries logs mirage-clock lwt ptime)
+  (ocamlopt_flags (-S)))

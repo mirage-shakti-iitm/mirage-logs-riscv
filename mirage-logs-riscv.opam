@@ -34,10 +34,12 @@ If tracing is enabled (via mirage-profile), it also writes each log message to t
 
 extra-files: [
   ["src.patch" "md5=6f29c9af6734364608ea95547e371d55"]
-  ["dune.patch" "md5=64012032fbc90e3baa26dcb1657d5137"]
+  # ["dune.patch" "md5=64012032fbc90e3baa26dcb1657d5137"]
 ]
-patches : [ "src.patch" "dune.patch" ]
 
+patches : [ "src.patch" ]
+
+# patches : [ "src.patch" "dune.patch" ]
 #url {
 #  src:
 #    "https://github.com/mirage/mirage-logs/releases/download/v1.1.0/mirage-logs-v1.1.0.tbz"
