@@ -18,6 +18,6 @@ camlMirage_logs__reporter:20
 camlMirage_logs__set_reporter:20
 camlMirage_logs__unset_reporter:20
 camlMirage_logs__run:20
-camlMirage_logs_:255
+camlMirage_logs_:120
 camlMirage_logs__fun:20
 *)
